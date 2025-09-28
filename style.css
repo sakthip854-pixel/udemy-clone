@@ -1,0 +1,144 @@
+body {
+  font-family: gabarita, sans-serif;
+  font-size: 16px;
+  margin: 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: black solid 1px;
+  padding: 4px;
+  padding-left: 16px;
+  align-items: center;
+}
+.navbar__s2 {
+  margin-left: 8px;
+  margin-bottom: 4px;
+  border: solid black 1px;
+  border-radius: 10px;
+  width: 60%;
+  padding: 8px;
+}
+.navbar__s2 input {
+  width: 60%;
+  border: none;
+}
+.navbar__s2 input:focus {
+  outline: none;
+}
+.navbar__s3 {
+  flex: 2;
+  display: flex;
+  margin-left: 2px;
+  color: black;
+  justify-content: space-around;
+}
+.categories {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid black 1px;
+}
+.categories p {
+  display: flex;
+  padding: 10px;
+  background-color: purple;
+  color: white;
+  border-radius: 30px;
+  gap: 4px;
+}
+.navbar-s3__links {
+  display: flex;
+  justify-content: space-around;
+  gap: 24px;
+  padding-left: 10px;
+}
+.navbar-s3__icon-btns {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  align-items: center;
+}
+.saleimage img {
+  width: 100%;
+}
+.container {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.course-card {
+  width: 300px;
+  border: solid black 1px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.course-card img {
+  background-color: purple;
+  width: 100%;
+  border-radius: 30px;
+  padding: 2px;
+}
+.course-card__desc {
+  text-align: center;
+}
+.heading {
+  padding-top: 5px;
+  padding-left: 1%;
+}
+.topics {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.topics__container {
+  margin: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.topics__container p {
+  margin: 0;
+  padding: 10px;
+  border: solid grey 1px;
+  flex-grow: 1;
+  flex-basis: 25%;
+}
+.course-card__desc p span {
+  gap: 5px;
+}
+.course-fees {
+  font-size: 16px;
+}
+.course-fees__oldfees {
+  text-decoration: line-through;
+  margin-left: 2px;
+}
+.course-fees__newfees {
+  margin-right: 2px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.footer-one {
+  display: flex;
+  gap: 40px;
+  margin: 30px;
+  padding-left: 20px;
+}
+.footer-two {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  padding-left: 20px;
+  gap: 50px;
+  margin: 30px;
+}
+.trending courses {
+  display: flex;
+  justify-items: center;
+  margin: 0;
+}
